@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/teran/go-grpctest/proto";
+
+message TestRequest {
+    string message = 1;
+}
+
+message TestResponse {
+    string message = 1;
+}
+
+service TestService {
+    rpc TestMessage(TestRequest) returns (TestResponse);
+}
