@@ -1,13 +1,13 @@
 module github.com/teran/go-grpctest
 
 go 1.22.3
-toolchain go1.23.7
+toolchain go1.24.1
 
 require (
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.10.0
 	google.golang.org/grpc v1.71.0
-	google.golang.org/protobuf v1.36.5
+	google.golang.org/protobuf v1.36.6
 )
 
 require (
