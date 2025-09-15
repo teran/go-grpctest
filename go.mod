@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	google.golang.org/grpc v1.75.1
 	google.golang.org/protobuf v1.36.9
 )
